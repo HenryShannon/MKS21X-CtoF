@@ -9,11 +9,11 @@ public class CtoFTester {
   }
 
   public static double fahrenheitToCelsius(double fahrenheit) {
-    return (fahrenheit - 32) * 9 / 5;
+    return (fahrenheit - 32) * 5 / 9;
   }
 
   public static void main(String[] args) {
-    System.out.print(fahrenheitToCelsius(212));
-    System.out.print(celsiusToFahrenheit(100));
+    System.out.println(fahrenheitToCelsius(212));
+    System.out.println(celsiusToFahrenheit(100));
   }
 }
